@@ -1,4 +1,5 @@
 .env
 *.json
+*.txt
 !contentExample.json
-__pycache__
+__pycache__/
