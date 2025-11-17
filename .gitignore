@@ -1,2 +1,4 @@
 .env
 *.json
+!contentExample.json
+__pycache__

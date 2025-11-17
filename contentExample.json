@@ -1,0 +1,43 @@
+{
+    "model": "gemini-2.5-flash",
+    "errors": 14,
+    "context": "I'll give you some equations to solve. You have to answer with ONLY A JSON in this form {solutions: [{val: -, mol: -}, ...]}. (mol = molteplicity). NEVER use markdown or latex PLEASE!",
+    "history": [
+        {
+            "me": "x + 4 = 3x + 5",
+            "gemini": "{solutions: [{val: -0.5, mol: 1}]}"
+        },
+        {
+            "me": "x^2 + 1 = 2x",
+            "gemini": "{solutions: [{val: 1, mol: 2}]}"
+        },
+        {
+            "me": "3x - x^2 = 2 + 5x",
+            "gemini": "{solutions: []}"
+        },
+        {
+            "me": "3x - x^2 = 2 + 6x",
+            "gemini": "{solutions: [{val: -1, mol: 1}, {val: -2, mol: 1}]}"
+        },
+        {
+            "me": "good! you're smart",
+            "gemini": "{solutions: []}"
+        },
+        {
+            "me": "4x^2 + 2x + 1 = -x^3 + x^2 + 3x + 4",
+            "gemini": "{solutions: [{val: -3, mol: 1}, {val: -1, mol: 1}, {val: 1, mol: 1}]}"
+        },
+        {
+            "me": "sin(x) = 1 AND 2x = 5pi",
+            "gemini": "{solutions: [{val: 7.853981633974483, mol: 1}]}"
+        },
+        {
+            "me": "x^4 = -1",
+            "gemini": "{solutions: []}"
+        },
+        {
+            "me": "x^5 + x = 4x^4 + 4",
+            "gemini": "{solutions: [{val: 4, mol: 1}]}"
+        }
+    ]
+}
