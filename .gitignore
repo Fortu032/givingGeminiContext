@@ -1,5 +1,5 @@
 .env
 *.json
 *.txt
-!contentExample.json
+!contextExample.json
 __pycache__/
